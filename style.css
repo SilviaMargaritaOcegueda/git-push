@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color:rgba(40, 40, 40, 1);
+  font-size: 20px;
+  line-height: 1.6;
+  /* text-align: center; */
+}
+
+.banner {
+  background-image: linear-gradient(45deg, rgba(218,218,219,1) 0%, rgba(230,230,230,0.2) 35%, rgba(153,156,157,1) 100%),
+                    url("https://source.unsplash.com/random/1600x1050/?g");
+  height: 250px;
+  line-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 50px auto;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins';
+  font-size: 32px;
+  line-height: 1.6;
+}
+
+h2 {
+  color: rgb(241, 241, 241);
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 1;
+}
+
+h3 {
+  color: rgb(48, 48, 48);
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 1;
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+.link-gradient-orange {
+  background-color: rgb(252, 216, 193);
+}
+
+.link-gradient-orange:hover {
+  background-color: rgb(247, 99, 0);
+}
+
+@media (max-width: 2000px) {
+  .container {
+    width: 680px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 280px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 200px;
+  }
+}
